@@ -3,8 +3,7 @@ import {Box, Button, HStack, Heading, Image, Stack, Text, VStack} from "@chakra-
 import "./home.css";
 import { Link } from 'react-router-dom';
 import vg from "../../assests/images/vg.png";
-import Typewriter from 'typewriter-effect';
-import { ColorModeSwitcher } from '../../ColorModeSwitcher';
+import Typewriter from 'typewriter-effect'
 import {CgGoogle, CgYoutube,} from "react-icons/cg";
 import {SiCoursera, SiUdemy} from "react-icons/si";
 import {DiAws} from "react-icons/di";
@@ -12,7 +11,6 @@ import IntroVideo from "../../assests/videos/IntroVideo.mp4";
 
 const Home = () => {
     return ( <section className="home">
-    <ColorModeSwitcher/>
     <div className="container">
         <Stack
             direction={["column","row"]}
@@ -43,8 +41,8 @@ const Home = () => {
         <Image className='vector-graphic' id='HomeImage' boxSize={"md"} src={vg} objectFit="contain"/>
         </Stack>
     </div>
-    <Box padding={"8"} bg={"blackAlpha.800"}>
-        <Heading children="OUR BRANDS" textAlign={"center"} fontFamily={"body"} color={"purple.600"}/>
+    <Box padding={"8"} bg={"purple.800"}>
+        <Heading children="OUR BRANDS" textAlign={"center"} fontFamily={"body"} color={"White"}/>
     
     <HStack className='brandsBanner' justifyContent={"space-evenly"} marginTop={"5"}>
         <CgGoogle/>
