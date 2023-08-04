@@ -23,7 +23,7 @@ const Home = () => {
         <VStack width={"full"} alignItems={["center","flex-end"]}>
            <Heading color={"purple.600"} size={"2xl"} children="Everything Is Here"/>
            <Text fontWeight={"bold"} display={"flex"} gap={"1"}>
-              Find Everything <Typewriter
+              Learn Everything <Typewriter
                    options={{
                     strings: ['You Want.'],
                     autoStart: true,
@@ -33,7 +33,7 @@ const Home = () => {
            </Text>
            <Link to='/membership'>
            <Button size={"lg"} colorScheme='purple'>
-                 Become Member
+                 Explore Now
            </Button>
            </Link>
         </VStack>
